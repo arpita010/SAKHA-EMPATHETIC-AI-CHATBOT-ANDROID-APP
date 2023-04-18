@@ -20,3 +20,7 @@ A small demo of our app is provided below.
 
 https://user-images.githubusercontent.com/85882229/232418816-dc787239-75b1-4290-ba7a-87f2a0c0d2b2.mp4
 
+Find the entire code for android app inside ChatApplication folder and for REST API inside Sakha-Android-API folder.
+ML model code will be updated soon.
+Here, I am just putting the code that I've written.(My contribution to this project)
+
