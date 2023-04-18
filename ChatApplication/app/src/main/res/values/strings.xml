@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chat Application</string>
+    <string name="welcome_back">Welcome Back to Sakha!</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_image">Add Image</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_sign_in">Already have an account?</string>
+    <string name="sakha_welcome_message">Welcome To Sakha - Your empathetic AI Friend</string>
+</resources>

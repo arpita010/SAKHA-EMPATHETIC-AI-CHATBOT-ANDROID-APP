@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:padding="@dimen/_4sdp"
+        android:id="@+id/leftChatView">
+
+        <TextView
+            android:id="@+id/leftChatTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:background="@drawable/background_received_message"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_13ssp"
+            android:padding="@dimen/_12sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.75"
+            android:backgroundTint="@color/received_message_background"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingStart="@dimen/_30sdp"
+        android:paddingLeft="@dimen/_30sdp"
+        android:id="@+id/rightChatView">
+
+        <TextView
+            android:id="@+id/rightChatTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_sent_message"
+            android:padding="@dimen/_12sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.8"
+            android:layout_margin="@dimen/_4sdp"
+            android:backgroundTint="@color/sakha_orange"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
